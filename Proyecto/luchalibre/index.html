@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucha Libre Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>🏆 Sistema Lucha Libre</h1>
+        <span>Admin Panel</span>
+    </header>
+
+    <div class="main-container">
+        <nav>
+            <button onclick="cargarLuchadores()" class="active">🤼 Luchadores</button>
+            <button onclick="cargarMarcas()">🏢 Marcas</button>
+            <button onclick="cargarCampeonatos()">👑 Campeonatos</button>
+            <button onclick="cargarEventos()">📅 Eventos</button>
+        </nav>
+
+        <main id="contenido">
+            <h2>Bienvenido</h2>
+            <p>Selecciona una opción del menú para ver los datos.</p>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
