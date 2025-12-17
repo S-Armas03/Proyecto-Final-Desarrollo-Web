@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:8080/marca";
+const API_URL = "/marca";
 
 window.onload = () => obtenerMarcas();
 

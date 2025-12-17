@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:8080/eventos";
+const API_URL = "/eventos";
 
 window.onload = () => {
     cargarEventos();
