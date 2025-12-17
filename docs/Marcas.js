@@ -1,4 +1,4 @@
-const API_URL = "https://proyecto-final-desarrollo-web-production.up.railway.app/marcas";
+const API_URL = "https://proyecto-final-desarrollo-web-production.up.railway.app/marca";
 
 window.onload = () => obtenerMarcas();
 
@@ -31,3 +31,4 @@ async function obtenerMarcas() {
         contenedor.innerHTML = "<p>Error al cargar marcas</p>";
     }
 }
+
