@@ -1,4 +1,4 @@
-const API_URL = "https://proyecto-final-desarrollo-web-production.up.railway.app/Marcas.html";
+const API_URL = "https://proyecto-final-desarrollo-web-production.up.railway.app/marcas";
 
 window.onload = () => obtenerMarcas();
 

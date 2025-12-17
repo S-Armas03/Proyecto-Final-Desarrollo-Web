@@ -1,5 +1,5 @@
 window.onload = () => {
-    fetch("https://proyecto-final-desarrollo-web-production.up.railway.app/Campeonatos.html")
+    fetch("https://proyecto-final-desarrollo-web-production.up.railway.app/campeonatos")
         .then(res => res.json())
         .then(data => {
             const contenedor = document.getElementById("contenedor-campeonatos");

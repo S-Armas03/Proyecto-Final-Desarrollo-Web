@@ -1,4 +1,4 @@
-const API_URL = "https://proyecto-final-desarrollo-web-production.up.railway.app/Eventos.html";
+const API_URL = "https://proyecto-final-desarrollo-web-production.up.railway.app/eventos";
 
 window.onload = () => {
     cargarEventos();

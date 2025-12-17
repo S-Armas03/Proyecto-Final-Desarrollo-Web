@@ -1,4 +1,4 @@
-const API_URL = "https://proyecto-final-desarrollo-web-production.up.railway.app/Luchadores.html";
+const API_URL = "https://proyecto-final-desarrollo-web-production.up.railway.app/luchador";
 
 window.onload = () => obtenerLuchadores();
 
