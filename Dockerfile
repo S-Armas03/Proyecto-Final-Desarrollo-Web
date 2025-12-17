@@ -2,9 +2,9 @@
 from rrojano/spring-boot as fuente
 workdir /app 
 
-COPY Proyecto_Backend/pom.xml .
+COPY ProyectoLucha/luchalibre/pom.xml .
 RUN mvn dependency:go-offline
-COPY Proyecto_Backend/src ./src
+COPY ProyectoLucha/luchalibre/src ./src
 RUN mvn -DskipTests clean package
 
 # Etapa 2: imagen final
